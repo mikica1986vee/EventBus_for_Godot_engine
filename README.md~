@@ -15,4 +15,4 @@ Obtain EventBus node <code>(get_node("/root/EventBus")) and call .post(event, da
 Registering and unregistering
 
 Obtain EventBus and call .register(obj), obj must have subs_dict dictionary field. To unregister call .unregister(obj) on EventBus.
-Good place to call these is in <code>_enter_tree() and _exit_tree() </code>
+Good place to call these is in _enter_tree() and _exit_tree() 
